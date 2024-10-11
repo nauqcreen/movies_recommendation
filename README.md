@@ -45,9 +45,6 @@ Features
 	2.	Content-Based Recommendation System: A Scikit-Learn-based system that predicts movie recommendations based on user preferences.
 	3.	REST API with Flask: A simple REST API that can be accessed locally to get movie recommendations.
 	4.	Testing on Localhost: Easily test the API on 127.0.0.1 to see recommendations based on specific movie preferences.
-
-Installation
-	1.	Clone the Repository:
  
 
 
