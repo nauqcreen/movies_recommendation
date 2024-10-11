@@ -10,7 +10,6 @@ Definition: Content-Based recommendation works on the principle that if a user l
 2. Build a Content-Based Recommendation System
 3. Build a REST API using Flask
 4. Test it on local host — 127.0.0.1
-5. Deploy to Heroku — API goes online
 
 ** DATA **
 https://www.kaggle.com/datasets/pncnmnp/the-indian-movie-database
