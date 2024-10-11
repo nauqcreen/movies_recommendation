@@ -1,51 +1,60 @@
-Movie Recommendation API
+<h1 align="center">Movie Recommendation API</h1>
 
-This project is a movie recommendation system that uses Scikit-Learn for model building and Flask as a web framework. The API provides personalized movie recommendations based on user preferences.
+<p align="center">
+  <b>A movie recommendation system based on user preferences.</b><br>
+  Built with Scikit-Learn for machine learning and Flask for the web framework.
+</p>
 
-Table of Contents
+---
 
-	1.	Technology Stack
-	2.	Relevant Hardware Specifications
-	3.	Description
-	4.	Data
-	5.	Features
-	6.	Installation
-	7.	Usage
-	8.	API Endpoints
-	9.	Example Request
+## 📝 Table of Contents
+1. [Introduction](#introduction)
+2. [Technology Stack](#technology-stack)
+3. [Relevant Hardware Specifications](#relevant-hardware-specifications)
+4. [Data](#data)
+5. [Features](#features)
+6. [Installation](#installation)
+7. [Usage](#usage)
+8. [API Endpoints](#api-endpoints)
+9. [Requests and Examples](#requests-and-examples)
 
-Technology Stack
+---
 
-	•	Programming Language: Python
-	•	Frameworks: Flask (for REST API)
-	•	Machine Learning Library: Scikit-Learn (TF-IDF, Cosine Similarity, BoW, Sparse Matrix)
+## 📖 Introduction
 
-Relevant Hardware Specifications
+This API is a **content-based recommendation system**. It suggests movies similar to those that users have previously liked based on features like genre, cast, and plot. For example, if a user enjoys *Joker*, the system recommends movies with similar themes, genres, or actors.
 
-This project is developed on a MacBook with the Apple M3 Max chip, which provides the following benefits for model training and API performance:
+## 🛠 Technology Stack
 
-	•	CPU: 16 cores (12 performance cores, 4 efficiency cores), allowing for efficient multitasking and processing.
-	•	Neural Engine: 16 cores, optimized for machine learning tasks, enhancing the speed of recommendation calculations.
-	•	Memory Bandwidth: 400GB/s, which supports fast data processing, beneficial for large movie datasets.
+- **Programming Language:** Python
+- **Framework:** Flask (for REST API)
+- **Machine Learning Library:** Scikit-Learn
 
-Description
+## 💻 Relevant Hardware Specifications
 
-The recommendation system is a content-based recommendation engine. It recommends movies similar to those the user has previously liked based on features like genre, cast, and other attributes. For example, if a user enjoys Joker, the system will recommend movies with similar themes, and genres, or featuring the same cast.
+The project is developed on a MacBook with the **Apple M3 Max chip**, which offers the following benefits for model training and API performance:
 
-Data
+- **CPU:** 16 cores (12 performance cores, 4 efficiency cores), optimized for efficient multitasking.
+- **Neural Engine:** 16 cores, designed for machine learning tasks to speed up calculations.
+- **Memory Bandwidth:** 400GB/s, enabling fast data processing, suitable for handling large movie datasets.
 
-The data for this project includes metadata on movies such as genres, casts, and plot overviews. The datasets used are publicly available on Kaggle:
+## 🎬 Data
 
-	•	The Indian Movie Database (https://www.kaggle.com/datasets/pncnmnp/the-indian-movie-database)
-	•	TMDB Movie Metadata (https://www.kaggle.com/datasets/tmdb/tmdb-movie-metadata)
+The data includes metadata on movies such as genres, casts, and overviews. The datasets are publicly available on Kaggle:
 
-Features
+- [The Indian Movie Database](https://www.kaggle.com/datasets/pncnmnp/the-indian-movie-database)
+- [TMDB Movie Metadata](https://www.kaggle.com/datasets/tmdb/tmdb-movie-metadata)
 
-	1.	Dataset Description: Details of the datasets used, including the source, features, and how they are utilized in the recommendation system.
-	2.	Content-Based Recommendation System: A Scikit-Learn-based system that predicts movie recommendations based on user preferences.
-	3.	REST API with Flask: A simple REST API that can be accessed locally to get movie recommendations.
-	4.	Testing on Localhost: Easily test the API on 127.0.0.1 to see recommendations based on specific movie preferences.
- 
+## ✨ Features
 
+1. **Dataset Description:** Overview of the datasets used, including sources and how they are utilized in the recommendation system.
+2. **Content-Based Recommendation System:** Predicts movie recommendations based on user preferences using Scikit-Learn.
+3. **REST API with Flask:** Simple REST API to get movie recommendations locally.
+4. **Localhost Testing:** Easily test the API on `127.0.0.1` to see recommendations based on specific movie inputs.
 
+## ⚙️ Installation
 
+1. **Clone the Repository:**
+   ```bash
+   git clone <repository-url>
+   cd <repository-name>
