@@ -54,7 +54,11 @@ The data includes metadata on movies such as genres, casts, and overviews. The d
 
 ## ⚙️ Installation
 
-1. **Clone the Repository:**
+**Clone the Repository:**
    ```bash
    git clone <repository-url>
    cd <repository-name>
+   source bin/activate
+   python3 preprocessing.py
+   python3 main.py
+   http://127.0.0.1:5001/movie?title=the+dark+knight
