@@ -18,7 +18,7 @@ Technology Stack
 
 	•	Programming Language: Python
 	•	Frameworks: Flask (for REST API)
-	•	Machine Learning Library: Scikit-Learn
+	•	Machine Learning Library: Scikit-Learn (TF-IDF, Cosine Similarity, BoW, Sparse Matrix)
 
 Relevant Hardware Specifications
 
