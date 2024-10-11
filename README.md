@@ -47,6 +47,8 @@ Features
 	4.	Testing on Localhost: Easily test the API on 127.0.0.1 to see recommendations based on specific movie preferences.
 
 Installation
+	1.	Clone the Repository:
+ 
 
 
 
